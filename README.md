@@ -38,5 +38,5 @@ Before executing the script, you should:
 
 The script also displays the found bitmaps and the converted files.
 
-- Usefull bitmaps .jpeg to .bmp converter https://convertio.co/pl/download/c70856bc9489ba23ef58070dd9255ee7f828eb/
+- Usefull bitmaps .jpeg to .bmp converter https://convertio.co/pl/
 
