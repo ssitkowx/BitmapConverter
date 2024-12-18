@@ -4,10 +4,10 @@
 Script is used to convert bitmaps to images. Script works with such file formats as jpg, bmp, gif, and png.
 
 # II. Assumptions:
-The code stored in BitmapConverter.py is adapted to ILI9341 settings in EvolutionBoard project:
+The code stored in BitmapConverter.py is adapted to ILI9341 settings in my internal project(s):
 - Eight bits pixels packed in sixteen bits data,
 - Sixteen bits data in big endian format,
-- Bitmaps converted to images wrapped in .h files.
+- Bitmaps converted to images wrapped in .hpp files.
 
 # III. Structure:
 - BitmapConverter
@@ -27,14 +27,12 @@ The code stored in BitmapConverter.py is adapted to ILI9341 settings in Evolutio
 - Python PIL library.
 
 # V. Script execution:
-Before executing the script, you should:
-- Have the file structure as in point III. If you have subfolders in "Bitmaps"" folder you should have same in "Images"
-- Execute BitmapConverter.py:
+Before executing the script, you should have the file structure as in point III. If you have subfolders in "Bitmaps" you should have same in "Images".
 
-1. Go to folder BitmapConverter,
-2. Open shell console,
-3. Execute python3 ./BitmapConverter.py,
-4. Go to the Images location to check the generated files.
+- Go to folder BitmapConverter,
+- Open shell console,
+- Execute python3 ./BitmapConverter.py,
+- Go to the Images location to check the generated files.
 
 The script also displays the found bitmaps and the converted files.
 
