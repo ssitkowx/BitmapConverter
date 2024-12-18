@@ -6,7 +6,7 @@ class BitmapConverter:
         print ('__init__')
         
         self.currentPath      = os.getcwd ()
-        self.bitmapExtensions = ('.jpg', '.bmp', '.gif', '.png')
+        self.bitmapExtensions = ('.jpg', '.bmp', '.gif', '.png', '.jpeg')
         self.imageExtension   = '.hpp'
         self.fileHead         = self.__getFileContent (self.currentPath + '/Images/Template/head.hpp')
         self.fileTail         = self.__getFileContent (self.currentPath + '/Images/Template/tail.hpp')
